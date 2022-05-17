@@ -4,10 +4,12 @@ import { useFonts, DMSerifDisplay_400Regular } from '@expo-google-fonts/dm-serif
 import { ThemeProvider } from 'styled-components/native'
 import theme from './src/theme'
 import { SignIn } from './src/screens/SignIn';
+import { DMSans_400Regular } from '@expo-google-fonts/dm-sans';
 
 export default function App() {
   const [fontsLoading] = useFonts({
     DMSerifDisplay_400Regular,
+    DMSans_400Regular
   })
 
   return (

@@ -2,6 +2,7 @@ import React from "react";
 import { Text } from "react-native";
 import { Container } from "./styles";
 import { Input } from '../../components/Input'
+import { Button } from "../../components/Button";
 export function SignIn() {
     return (
         <Container>
@@ -16,6 +17,7 @@ export function SignIn() {
                 type="secondary"
                 secureTextEntry
             />
+            <Button title='Entrar' type="secondary"/>
         </Container>
     )
 }
